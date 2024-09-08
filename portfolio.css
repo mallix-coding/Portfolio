@@ -1,0 +1,194 @@
+header, body, footer, main{
+    font-size: 16px;
+    color: black;
+    opacity: 0.95;
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Nerko One", serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+p {
+    font-family: "Caveat", cursive;
+    font-size: 22px;
+}
+
+/*The start of the code for the header*/
+#infobar {
+    display: inline-flex;
+    position: fixed;
+    top: 0px;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid black;
+    color: black;
+    background-color: skyblue;
+    width: 100%;
+    height: 70px;
+    align-content: center;
+    opacity: 1;
+    text-align: center;
+}
+
+#name {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    align-content: center;
+    justify-content: flex-start;
+    width: 50%;
+    margin-top: 0px;
+}
+
+#links {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 50%;
+    margin-top: 25px;
+}
+
+#links li {
+    justify-content: space-between;
+}
+
+#links li a{
+    text-decoration: none;
+    background-color: steelblue;
+    color: lightblue;
+    border: 1px solid black;
+    border-radius: 2.5px;
+    margin: 18px;
+    padding: 2.5px;
+    box-shadow: 0px 1px;
+}
+
+#links li a:hover{
+    background-color: darkslategray;
+    color: lightskyblue;
+}
+
+#links li a:active{
+    margin-top: 2.5px;
+    color: black;
+    box-shadow: 0px 0px;
+  }
+  /*The end of the code for the infobar*/
+
+
+
+  /*The start of the code for the body*/
+body {
+    background-color: darkslategray;
+    padding-top: 70px;
+}
+
+#about {
+    margin-bottom: 0px;
+}
+
+.sections {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    color: lightblue;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sections h1, .sections p {
+    align-self: flex-start;
+    margin-left: 5%;
+}
+
+#selfie {
+    justify-content: flex-end;
+    height: 533px;
+    width: 300px;
+    padding-left: 20px;
+}
+
+#projects {
+    margin-bottom: 0px;
+}
+
+#projectlist, #projectlist li {
+    list-style-type: "-";
+    width: 100%;
+    margin-left: 50px;
+    padding: 10px;
+    text-align: left;
+}
+
+#projectlist li a {
+    color: white;
+}
+
+#unstyled {
+    list-style-type: none;
+}
+
+#etc {
+    margin-left: 20px;
+}
+
+#skilllist {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    margin-left: 80px;
+    padding: 10px;
+    text-align: left;
+}
+#skilllist li {
+    padding: 10px;
+}
+
+#skills {
+    margin-bottom: 0px;
+}
+
+#contactlist {
+    list-style-type: none;
+    width: 100%;
+    margin-left: 90px;
+    padding: 10px;
+    text-align: left;
+}
+
+#contactlist p {
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#discord {
+    display: inline-flex;
+}
+
+#discordicon {
+    height: 48px;
+    width: 48px;
+}
+
+#discordname {
+    margin-top: 8px;
+    font-size: 28px;
+    text-decoration: underline;
+    color: rgb(100, 100, 255);
+}
+  /*The end of the code for the body*/
+
+
+
+  /*The start of the code for the footer*/
+
+  /*The end of the code for the footer*/
