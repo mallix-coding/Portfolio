@@ -389,6 +389,11 @@ body {
         text-decoration: underline;
         color: rgb(100, 100, 255);
     }
+
+    .skillicons {
+        height: 12px;
+        width: 12px;
+    }
       /*The end of the code for the body*/
     
     
