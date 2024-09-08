@@ -406,7 +406,7 @@ body {
 /*Tablet Screen Size*/
 @media only screen and (min-width: 480px) and (max-width: 768px) {
     header, body, footer, main{
-        font-size: 16px;
+        font-size: 6.5px;
         color: black;
         opacity: 0.95;
         margin: 0px;
@@ -414,13 +414,13 @@ body {
     
     h1 {
         font-family: "Nerko One", serif;
-        font-size: 40px;
+        font-size: 16px;
         text-decoration: underline;
     }
     
     p {
         font-family: "Caveat", cursive;
-        font-size: 22px;
+        font-size: 9px;
     }
     
     /*The start of the code for the header*/
@@ -434,14 +434,14 @@ body {
         color: black;
         background-color: skyblue;
         width: 100%;
-        height: 70px;
+        height: 28px;
         align-content: center;
         opacity: 1;
         text-align: center;
     }
     
     #name {
-        font-size: 50px;
+        font-size: 20px;
         text-decoration: none;
         color: black;
         align-content: center;
@@ -456,7 +456,7 @@ body {
         justify-content: flex-end;
         list-style-type: none;
         width: 50%;
-        margin-top: 25px;
+        margin-top: 10px;
     }
     
     #links li {
@@ -468,10 +468,10 @@ body {
         background-color: steelblue;
         color: lightblue;
         border: 1px solid black;
-        border-radius: 2.5px;
-        margin: 18px;
-        padding: 2.5px;
-        box-shadow: 0px 1px;
+        border-radius: 1px;
+        margin: 7.2px;
+        padding: 1px;
+        box-shadow: 0px 0.4px;
     }
     
     #links li a:hover{
@@ -480,7 +480,7 @@ body {
     }
     
     #links li a:active{
-        margin-top: 2.5px;
+        margin-top: 1px;
         color: black;
         box-shadow: 0px 0px;
       }
@@ -491,7 +491,7 @@ body {
       /*The start of the code for the body*/
     body {
         background-color: darkslategray;
-        padding-top: 70px;
+        padding-top: 28px;
     }
     
     #about {
@@ -519,9 +519,9 @@ body {
     
     #selfie {
         justify-content: flex-end;
-        height: 533px;
-        width: 300px;
-        padding-left: 20px;
+        height: 213.2px;
+        width: 120px;
+        padding-left: 8px;
     }
     
     #projects {
@@ -531,8 +531,8 @@ body {
     #projectlist, #projectlist li {
         list-style-type: "-";
         width: 100%;
-        margin-left: 50px;
-        padding: 10px;
+        margin-left: 20px;
+        padding: 4px;
         text-align: left;
     }
     
@@ -545,19 +545,19 @@ body {
     }
     
     #etc {
-        margin-left: 20px;
+        margin-left: 8px;
     }
     
     #skilllist {
         list-style-type: none;
         display: flex;
         width: 100%;
-        margin-left: 80px;
-        padding: 10px;
+        margin-left: 32px;
+        padding: 4px;
         text-align: left;
     }
     #skilllist li {
-        padding: 10px;
+        padding: 4px;
     }
     
     #skills {
@@ -567,8 +567,8 @@ body {
     #contactlist {
         list-style-type: none;
         width: 100%;
-        margin-left: 90px;
-        padding: 10px;
+        margin-left: 36px;
+        padding: 4px;
         text-align: left;
     }
     
@@ -582,13 +582,13 @@ body {
     }
     
     #discordicon {
-        height: 48px;
-        width: 48px;
+        height: 19.2px;
+        width: 19.2px;
     }
     
     #discordname {
-        margin-top: 8px;
-        font-size: 28px;
+        margin-top: 3.2px;
+        font-size: 11.2px;
         text-decoration: underline;
         color: rgb(100, 100, 255);
     }
