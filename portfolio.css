@@ -1,3 +1,8 @@
+html {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 header, body, footer, main{
     font-size: 16px;
     color: black;
@@ -112,8 +117,8 @@ body {
 
 #selfie {
     justify-content: flex-end;
-    height: 533px;
-    width: 300px;
+    max-height: 533px;
+    max-width: 300px;
     padding-left: 20px;
 }
 
